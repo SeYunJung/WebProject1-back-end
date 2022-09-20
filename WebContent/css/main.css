@@ -1,0 +1,890 @@
+/* COMMON */
+html {
+    min-height: 100%;
+}
+body {
+
+    min-height: 100%;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+}
+a {
+    text-decoration: none;
+}
+.social-menu .menu {
+	color: #fff;
+	margin: 0 auto;
+	display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* HEADER */
+header {
+    font-family: 'Anek Telugu', sans-serif;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    /*border-bottom: 1px solid #000;*/
+    /*background-color: orange;*/
+}
+header .topbar {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: black;
+}
+
+input[id="menuicon"] {display: none;}
+input[id="menuicon"] + label {display: block; margin: 15px; width: 40px; height: 30px; position: relative; cursor: pointer;}
+input[id="menuicon"] + label span {display: block; position: absolute; width: 100%; height: 5px; border-radius: 30px; background: #fff; transition: all .35s;}
+input[id="menuicon"] + label span:nth-child(1) {top: 0;}
+input[id="menuicon"] + label span:nth-child(2) {top: 50%; transform: translateY(-50%);}
+input[id="menuicon"] + label span:nth-child(3) {bottom: 0;}
+input[id="menuicon"]:checked + label {z-index: 2;}
+input[id="menuicon"]:checked + label span {background: #fff;}
+input[id="menuicon"]:checked + label span:nth-child(1) {top: 50%; transform: translateY(-50%) rotate(45deg);}
+input[id="menuicon"]:checked + label span:nth-child(2) {opacity: 0;}
+input[id="menuicon"]:checked + label span:nth-child(3) {bottom: 50%; transform: translateY(50%) rotate(-45deg);}
+
+div[class="sidebar"] {
+    width: 300px; /**/
+    height: 100%; /**/
+    background: #000; /*영역 표시*/
+    position: fixed; /**/
+    top: 0; /**/
+    left: -300px; /*처음에는 안보이게 position왼쪽값을 -300px*/
+    z-index: 1; /*position 우선순위를 지정해서 sidebar가 menuicon을 가리지 않도록 한다*/
+    transition: all .35s;/**/
+}
+.sidebar {
+    color: #fff;
+}
+.sidebar ul {
+    position: relative;
+    top: 15%;
+    bottom: 50%;
+    right: 0;
+    left: 45%;
+}
+.sidebar ul li {
+    font-size: 25px;
+    margin: 70px auto;
+}
+
+input[id="menuicon"]:checked + label + div {
+    left: 0;
+}
+
+
+header .menubar {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    margin: auto;
+}
+header .inner {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+header .inner .social-menu {
+    position: fixed;
+    top: 7px;
+    bottom: 0;
+    right: 30px;
+    margin: 0 auto;
+}
+header .inner .social-menu ul.menu {
+    display: flex;
+}
+header .inner .social-menu menu li {
+    
+}
+header .inner .social-menu .menu li a {
+    padding: 40px 12px;
+    font-size: 25px;
+    color: #553830;
+}
+header .inner .social-menu .menu li a:hover {
+    color: crimson;
+}
+
+/*VISUAL*/
+.visual {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 56.25%;
+    height: 0px;
+    overflow: hidden;
+}
+.visual .inner iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* PROFILE */
+.profile {
+	position: absolute;
+	top: 10%;
+    width: 100%;
+}
+
+.profile .topTitle {
+    font-family: 'Nanum Gothic', sans-serif;
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+
+}
+.profile .topTitle .subTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.profile .topTitle .subTitle ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.profile .topTitle .subTitle ul li {
+    margin-right: 55px;
+}
+
+.profile .profilebox {
+
+    width: 100%;
+    height: 750px;
+    background-color: #F9F9F9;
+}
+
+.profile .inner {
+
+	margin-left: 20%; 
+}
+.profile .inner .subBox {
+	margin-bottom: 10px;
+}
+.profile .inner .subBox h3 {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 50px;   
+    padding-top: 30px;
+}
+.profile .artist {
+	display: flex;
+}
+.profile .artist .right {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.profile .artist .right .title-text {
+	font-size: 35px;  
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000
+}
+.profile .artist .right .text-box {
+	margin-top: 50px; 
+}
+.profile .artist .right .text-box .birth {
+	display: flex;
+}
+.profile .artist .right .text-box .birth h3 {
+	margin-right: 20px;
+}
+.profile .artist .right .text-box .debut {
+	display: flex;
+	margin-top: 30px;
+}
+.profile .artist .right .text-box .debut h3 {
+	margin-right: 20px;
+}
+
+/*DISCOGRAPHY*/
+.discography {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 10%;
+    /*margin-top: 80px;*/
+
+    /*
+    margin-left: 17%;
+    margin-right: 20%;*/
+    width: 100%;
+}
+
+.discography .topTitle {
+
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+
+}
+.discography .topTitle .subTitle {
+    
+    font-size: 20px;
+}
+.discography .topTitle .subTitle ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.discography .topTitle .subTitle ul li {
+    margin-right: 55px;
+}
+.discography .topTitle .subTitle ul li a {
+    letter-spacing: 1px;   
+}
+
+.discography .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*background-color: #F9F9F9;*/
+}
+
+.discography .inner {
+    /*text-align: center;*/
+}
+.discography .inner .Albums {
+	/*margin-top: 20px;*/
+  	
+  	
+}
+.discography .inner .Albums .Album {
+	display: flex;
+  	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.first-album {
+	margin-right: 20px;
+}
+.second-album {
+	margin-right: 20px;
+}
+.discography .inner .Albums .EP {
+	display: flex;
+  	justify-content: center;
+	display: relative;
+	margin-bottom: 20px;
+} 
+.first-mini {
+	margin-right: 20px;
+}
+.second-mini {
+	margin-right: 20px;
+}
+.third-mini {
+	margin-right: 20px;
+}
+.discography .inner .Albums .Single {
+	display: flex;
+  	justify-content: center;
+	display: relative;
+}
+.single-rain {
+	margin-right: 20px;
+}
+.single-eleven {
+	margin-right: 20px;
+}
+.single-fourseason {
+	margin-right: 20px;
+}
+
+/* YOUTUBE */
+.youtube {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 10%;
+    /*margin-top: 80px;*/
+
+    /*
+    margin-left: 17%;
+    margin-right: 20%;*/
+    width: 100%;
+    
+}
+
+.youtube .topTitle {
+
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+
+}
+.youtube .topTitle .subTitle {
+    
+    font-size: 20px;
+}
+.youtube .topTitle .subTitle ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.youtube .topTitle .subTitle ul li {
+    margin-right: 55px;
+}
+.youtube .topTitle .subTitle ul li a {
+    letter-spacing: 1px;   
+}
+
+.youtube .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    /*background-color: #F9F9F9;*/
+    background-color: #F9F9F9;
+}
+
+
+.youtube .inner {
+	text-align: center;
+    /*display: flex;
+    justify-content: center;*/
+}
+.youtube iframe {
+    padding: 5px;
+}
+
+
+/*TOUR*/
+.tour {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 10%;
+    /*margin-top: 80px;*/
+
+    /*
+    margin-left: 17%;
+    margin-right: 20%;*/
+    width: 100%;
+    height: 100%;
+}
+
+.tour .topTitle {
+
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+
+}
+.tour .topTitle .subTitle {
+    
+    font-size: 20px;
+}
+.tour .topTitle .subTitle ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.tour .topTitle .subTitle ul li {
+    margin-right: 55px;
+}
+.tour .topTitle .subTitle ul li a {
+    letter-spacing: 1px;   
+}
+
+.tour .container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    /*background-color: #F9F9F9;*/
+    margin: 0px auto;
+    background-color: #F9F9F9;
+}
+
+
+.tour .container .inner {
+    position: absolute;
+	text-align: center;
+    /*display: flex;
+    justify-content: center;*/
+    width: 50%;
+    left: 24%;
+    right: 20%;
+    margin-top: 5%;
+}
+
+.tour .container .inner .tours {
+    
+}
+.tour .container .inner .tours ul {
+    width: 100%;
+}
+.tour .container .inner .tours ul li {
+    
+    border-bottom: 1px solid #000;
+    height: 120px;
+    margin-top: 30px;
+}
+.tour .container .inner .tours ul li .schedule .contents {
+    display: flex;
+    
+}
+.tour .container .inner .tours ul li .schedule .contents h2 {
+    font-size: 40px;
+    margin-right: 7px;
+}
+.tour .container .inner .tours ul li .schedule .contents .date {
+    font-size: 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.tour .container .inner .tours ul li .schedule .contents .the-venue {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+.tour .container .inner .tours ul li .schedule .contents .venue {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.tour .container .inner .tours ul li .schedule .ticketing {
+    text-align: right;
+}
+.tour .container .inner .tours ul li .schedule .contents .date {
+
+}
+.tour .container .inner .tours ul li .schedule .contents h2 {
+    
+}
+
+
+/*BOARD*/
+.board {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 10%;
+    /*margin-top: 80px;*/
+    /*
+    margin-left: 17%;
+    margin-right: 20%;*/
+    width: 100%;
+    height: 100%;
+}
+
+.board .topTitle {
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+}
+.board .topTitle .subTitle {
+    
+    font-size: 20px;
+}
+.board .topTitle .subTitle ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.board .topTitle .subTitle ul li {
+    margin-right: 55px;
+}
+.board .topTitle .subTitle ul li a {
+    letter-spacing: 1px;   
+}
+
+.board .container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*background-color: #F9F9F9;*/
+    background-color: #F9F9F9;
+}
+
+
+.board .container .inner {
+    position: absolute;
+    /*display: flex;
+    justify-content: center;*/
+    width: 100%;
+    margin-top: 5%;
+}
+
+.board .container .inner .page-write {
+    margin-top: 25%;
+    margin-right: 27.5%;
+    margin-left: 27.5%;
+}
+.board .container .inner .write {
+    text-align: right;
+
+}
+.board .container .inner .page {
+    text-align: left;
+    
+}
+
+.board .container .inner table.board-list {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000;
+    width: 45%;
+}
+.board .container .inner table.board-list th, td {
+    border: 1px solid #000;
+    text-align: center;
+}
+.board .container .inner table.board-list .num {
+    width: 5%;
+}
+.board .container .inner table.board-list .writer {
+    width: 10%;
+}
+.board .container .inner table.board-list .title {
+    width: 63%;
+}
+.board .container .inner table.board-list .dates {
+    width: 15%;
+}
+.board .container .inner table.board-list .hits {
+    width: 7%;
+}
+
+/*LOGIN*/
+.login {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 10%;
+    /*margin-top: 80px;*/
+
+    /*
+    margin-left: 17%;
+    margin-right: 20%;*/
+    width: 100%;
+    height: 100%;
+}
+
+.login .login-form {
+    font-size: 45px;
+    margin-top: 20%;
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10%;
+    text-align: center;
+}
+.login .login-form h2 {
+    position: relative;
+    font-size: 40px;
+    text-align: left;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+.login .login-form .input-box {
+    position: relative;
+}
+.login .login-form .input-box .id-text {
+    width: 100%;
+    height: 35px;
+}
+.login .login-form .input-box .pw-text {
+    width: 100%;
+    height: 35px;
+}
+.login .login-form .input-box .login-btn {
+    width: 100%;
+    height: 35px;
+}
+.login .login-form .input-box .join-btn {
+    width: 100%;
+    height: 35px;
+}
+.login .login-form .input-box .signin {
+    font-size: 20px;
+    text-align: left;
+}
+.login .login-form .input-box .find-idpw {
+    display: flex;
+    justify-content: space-between;
+}
+.login .login-form .input-box .find-id {
+    font-size: 15px;
+}
+.login .login-form .input-box .find-pw {
+    font-size: 15px;
+}
+
+/*JOIN*/
+.join {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 10%;
+    /*margin-top: 80px;*/
+
+    /*
+    margin-left: 17%;
+    margin-right: 20%;*/
+    width: 100%;
+    height: 100%;
+}
+
+.join .join-form {
+    font-size: 45px;
+    margin-top: 20%;
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10%;
+    text-align: center;
+}
+.join .join-form h2 {
+    position: relative;
+    font-size: 40px;
+    text-align: left;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+.join .join-form .input-box {
+    position: relative;
+}
+.join .join-form .input-box .id-text {
+    width: 100%;
+    height: 35px;
+}
+.join .join-form .input-box .pw-text {
+    width: 100%;
+    height: 35px;
+}
+.join .join-form .input-box .join-btn {
+    width: 100%;
+    height: 35px;
+}
+
+
+/*BOARD-WRITE*/
+.board-write {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 10%;
+    /*margin-top: 80px;*/
+
+    /*
+    margin-left: 17%;
+    margin-right: 20%;*/
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.board-write .topTitle {
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+}
+.board-write .topTitle .subTitle {
+    
+    font-size: 20px;
+}
+.board-write .topTitle .subTitle ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.board-write .topTitle .subTitle ul li {
+    margin-right: 55px;
+}
+.board-write .topTitle .subTitle ul li a {
+    letter-spacing: 1px;   
+}
+.board-write .container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*background-color: #F9F9F9;*/
+    background-color: #F9F9F9;
+}
+.board-write .container .inner {
+    width: 100%;
+}
+.board-write .container .inner .board-writes {
+    margin-top: 20px;
+    width: 100%;
+}
+.board-write .container .inner .board-writes .title {
+    width: 40%;
+    margin-bottom: 10px;
+}
+.board-write .container .inner .board-writes .name {
+	width: 40%;
+    margin-bottom: 10px;
+}
+.board-write .container .inner .board-writes .board-contents {
+    width: 40%;
+}
+
+
+/*BOARD-CONTENT*/
+.board-content {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 10%;
+    /*margin-top: 80px;*/
+
+    /*
+    margin-left: 17%;
+    margin-right: 20%;*/
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.board-content .topTitle {
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+}
+.board-content .topTitle .subTitle {
+    
+    font-size: 20px;
+}
+.board-content .topTitle .subTitle ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.board-content .topTitle .subTitle ul li {
+    margin-right: 55px;
+}
+.board-content .topTitle .subTitle ul li a {
+    letter-spacing: 1px;   
+}
+.board-content .container {
+	height: 100%;
+}
+.board-content .container .inner {
+	position: relative;
+	width: 50%;
+	height: 70%;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+.board-content .container .inner .board-contents {
+	position: relative;
+}
+.board-content .container .inner .board-contents .Title {
+	padding-top: 20px;
+	padding-bottom: 5px;
+	text-align: left;
+	font-size: 25px;
+}
+.board-content .container .inner .board-contents .Date {
+	border-bottom: 1px solid #000;
+	text-align: left;
+	
+}
+.board-content .container .inner .board-contents .Content {
+	margin-top: 20px;
+	width: 100%;
+	height: 200px;
+	text-align: left;
+}
+.board-content .container .inner .board-contents .erase-edit {
+	display: flex;
+	justify-content: right;
+}
+.board-content .container .inner .board-contents .erase-edit .erase {
+	
+}
+.board-content .container .inner .board-contents .erase-edit .edit {
+	
+}
+
+
+/*BOARD-CONTENT-VIEW*/
+.board-update-view {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.board-update-view .topTitle {
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+}
+.board-update-view .topTitle .subTitle {
+    
+    font-size: 20px;
+}
+.board-update-view .topTitle .subTitle ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.board-update-view .topTitle .subTitle ul li {
+    margin-right: 55px;
+}
+.board-update-view .topTitle .subTitle ul li a {
+    letter-spacing: 1px;   
+}
+.board-update-view .container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*background-color: #F9F9F9;*/
+    background-color: #F9F9F9;
+}
+.board-update-view .container .inner {
+    width: 100%;
+}
+.board-update-view .container .inner .board-update {
+    margin-top: 20px;
+    width: 100%;
+}
+.board-update-view .container .inner .board-update .title {
+    width: 40%;
+    margin-bottom: 10px;
+}
+.board-update-view .container .inner .board-update .name {
+	width: 40%;
+    margin-bottom: 10px;
+}
+.board-update-view .container .inner .board-update .board-contents {
+    width: 40%;
+}
+
+
+/**/
+.page-elements {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 23%;
+}

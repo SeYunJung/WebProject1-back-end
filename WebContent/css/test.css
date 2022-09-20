@@ -1,0 +1,65 @@
+.Happy {
+    position: relative;
+}
+.Happy .inner {
+    margin-top: 2%;
+	margin-left: 20%; 
+}
+.Happy .inner .subBox {
+    margin-bottom: 10px;
+}
+.Happy .inner .subBox h3 {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 50px;   
+}
+.Happy .inner .albumDetail {
+
+}
+.Happy .album {
+	display: flex;
+}
+.Happy .album .right {
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 40%;  
+	height: 500px;
+	overflow: hidden;
+}
+.Happy .album .right .title {
+	max-width: 100%;
+	height: auto;
+	display: blcok;
+}
+.Happy .album .right .title-text {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000
+}
+.Happy .album .right .title-text .title-name {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 40px;
+}
+.Happy .album .right .title-text .title-genre {
+	font-size: 13px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.Happy .album .right .text-box {
+	margin-top: 50px; 
+}
+.Happy .album .right .text-box .main-text {
+	display: flex;
+	line-height: 25px;
+	font-weight: bold;
+	font-family: 'Nanum Gothic', sans-serif; 
+}
+.Happy .album .right .text-box .main-text h3 {
+	margin-right: 20px;  
+}
+.Happy .album .right .text-box .sub-text {
+	display: flex;
+	margin-top: 30px;
+	line-height: 25px;
+}
+.Happy .album .right .text-box .sub-text h3 {
+	margin-right: 20px;
+}

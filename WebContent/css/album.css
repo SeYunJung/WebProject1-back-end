@@ -1,0 +1,1135 @@
+/*MyVoice*/
+.MyVoice {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+
+    top: 10%;
+    width: 100%;
+}
+
+
+.MyVoice .topTitle {
+
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+
+}
+.MyVoice .topTitle .subTitle {
+    
+    font-size: 20px;
+}
+.MyVoice .topTitle .subTitle ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.MyVoice .topTitle .subTitle ul li {
+    margin-right: 55px;
+}
+.MyVoice .topTitle .subTitle ul li a {
+    letter-spacing: 1px;   
+}
+
+.MyVoice .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*background-color: #F9F9F9;*/
+}
+
+
+.MyVoice .inner {
+    margin-top: 2%;
+	margin-left: 20%; 
+}
+.MyVoice .inner .subBox {
+    margin-bottom: 10px;
+}
+.MyVoice .inner .subBox h3 {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 50px;   
+}
+.MyVoice .inner .albumDetail {
+
+}
+.MyVoice .album {
+	display: flex;
+}
+.MyVoice .album .right {
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 40%;  
+	height: 500px;
+	overflow: hidden;
+}
+.MyVoice .album .right .title {
+	max-width: 100%;
+	height: auto;
+	display: blcok;
+}
+.MyVoice .album .right .title-text {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000
+}
+.MyVoice .album .right .title-text .title-name {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 40px;
+}
+.MyVoice .album .right .title-text .title-genre {
+	font-size: 13px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.MyVoice .album .right .text-box {
+	margin-top: 50px; 
+}
+.MyVoice .album .right .text-box .main-text {
+	display: flex;
+	line-height: 25px;
+	font-weight: bold;
+	font-family: 'Nanum Gothic', sans-serif; 
+}
+.MyVoice .album .right .text-box .main-text h3 {
+	margin-right: 20px;  
+}
+.MyVoice .album .right .text-box .sub-text {
+	display: flex;
+	margin-top: 30px;
+	line-height: 25px;
+}
+.MyVoice .album .right .text-box .sub-text h3 {
+	margin-right: 20px;
+}
+
+/*Purpose*/
+.Purpose {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+
+    top: 10%;
+    width: 100%;
+}
+
+
+.Purpose .topTitle {
+
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+
+}
+.Purpose .topTitle .subTitle {
+    
+    font-size: 20px;
+}
+.Purpose .topTitle .subTitle ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.Purpose .topTitle .subTitle ul li {
+    margin-right: 55px;
+}
+.Purpose .topTitle .subTitle ul li a {
+    letter-spacing: 1px;   
+}
+
+.Purpose .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*background-color: #F9F9F9;*/
+}
+
+
+
+.Purpose .inner {
+    margin-top: 2%;
+	margin-left: 20%; 
+}
+.Purpose .inner .subBox {
+    margin-bottom: 10px;
+}
+.Purpose .inner .subBox h3 {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 50px;   
+}
+.Purpose .inner .albumDetail {
+
+}
+.Purpose .album {
+	display: flex;
+}
+.Purpose .album .right {
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 40%;  
+	height: 500px;
+	overflow: hidden;
+}
+.Purpose .album .right .title {
+	max-width: 100%;
+	height: auto;
+	display: blcok;
+}
+.Purpose .album .right .title-text {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000
+}
+.Purpose .album .right .title-text .title-name {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 40px;
+}
+.Purpose .album .right .title-text .title-genre {
+	font-size: 13px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.Purpose .album .right .text-box {
+	margin-top: 50px; 
+}
+.Purpose .album .right .text-box .main-text {
+	display: flex;
+	line-height: 25px;
+	font-weight: bold;
+	font-family: 'Nanum Gothic', sans-serif; 
+}
+.Purpose .album .right .text-box .main-text h3 {
+	margin-right: 20px;  
+}
+.Purpose .album .right .text-box .sub-text {
+	display: flex;
+	margin-top: 30px;
+	line-height: 25px;
+}
+.Purpose .album .right .text-box .sub-text h3 {
+	margin-right: 20px;
+}
+
+/*INVU*/
+.INVU {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+
+    top: 10%;
+    width: 100%;
+}
+
+
+.INVU .topTitle {
+
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+
+}
+.INVU .topTitle .subTitle {
+    
+    font-size: 20px;
+}
+.INVU .topTitle .subTitle ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.INVU .topTitle .subTitle ul li {
+    margin-right: 55px;
+}
+.INVU .topTitle .subTitle ul li a {
+    letter-spacing: 1px;   
+}
+
+.INVU .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*background-color: #F9F9F9;*/
+}
+
+
+
+.INVU .inner {
+    margin-top: 2%;
+	margin-left: 20%; 
+}
+.INVU .inner .subBox {
+    margin-bottom: 10px;
+}
+.INVU .inner .subBox h3 {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 50px;   
+}
+.INVU .inner .albumDetail {
+
+}
+.INVU .album {
+	display: flex;
+}
+.INVU .album .right {
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 40%;  
+	height: 500px;
+	overflow: hidden;
+}
+.INVU .album .right .title {
+	max-width: 100%;
+	height: auto;
+	display: blcok;
+}
+.INVU .album .right .title-text {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000
+}
+.INVU .album .right .title-text .title-name {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 40px;
+}
+.INVU .album .right .title-text .title-genre {
+	font-size: 13px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.INVU .album .right .text-box {
+	margin-top: 50px; 
+}
+.INVU .album .right .text-box .main-text {
+	display: flex;
+	line-height: 25px;
+	font-weight: bold;
+	font-family: 'Nanum Gothic', sans-serif; 
+}
+.INVU .album .right .text-box .main-text h3 {
+	margin-right: 20px;  
+}
+.INVU .album .right .text-box .sub-text {
+	display: flex;
+	margin-top: 30px;
+	line-height: 25px;
+}
+.INVU .album .right .text-box .sub-text h3 {
+	margin-right: 20px;
+}
+
+/*I*/
+.I {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+
+    top: 10%;
+    width: 100%;
+}
+
+
+.I .topTitle {
+
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+
+}
+.I .topTitle .subTitle {
+    
+    font-size: 20px;
+}
+.I .topTitle .subTitle ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.I .topTitle .subTitle ul li {
+    margin-right: 55px;
+}
+.I .topTitle .subTitle ul li a {
+    letter-spacing: 1px;   
+}
+
+.I .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*background-color: #F9F9F9;*/
+}
+
+
+
+.I .inner {
+    margin-top: 2%;
+	margin-left: 20%; 
+}
+.I .inner .subBox {
+    margin-bottom: 10px;
+}
+.I .inner .subBox h3 {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 50px;   
+}
+.I .inner .albumDetail {
+
+}
+.I .album {
+	display: flex;
+}
+.I .album .right {
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 40%;  
+	height: 500px;
+	overflow: hidden;
+}
+.I .album .right .title {
+	max-width: 100%;
+	height: auto;
+	display: blcok;
+}
+.I .album .right .title-text {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000
+}
+.I .album .right .title-text .title-name {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 40px;
+}
+.I .album .right .title-text .title-genre {
+	font-size: 13px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.I .album .right .text-box {
+	margin-top: 50px; 
+}
+.I .album .right .text-box .main-text {
+	display: flex;
+	line-height: 25px;
+	font-weight: bold;
+	font-family: 'Nanum Gothic', sans-serif; 
+}
+.I .album .right .text-box .main-text h3 {
+	margin-right: 20px;  
+}
+.I .album .right .text-box .sub-text {
+	display: flex;
+	margin-top: 30px;
+	line-height: 25px;
+}
+.I .album .right .text-box .sub-text h3 {
+	margin-right: 20px;
+}
+
+/*Why*/
+.Why {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+
+    top: 10%;
+    width: 100%;
+}
+
+
+.Why .topTitle {
+
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+
+}
+.Why .topTitle .subTitle {
+    
+    font-size: 20px;
+}
+.Why .topTitle .subTitle ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.Why .topTitle .subTitle ul li {
+    margin-right: 55px;
+}
+.Why .topTitle .subTitle ul li a {
+    letter-spacing: 1px;   
+}
+
+.Why .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*background-color: #F9F9F9;*/
+}
+
+
+
+.Why .inner {
+    margin-top: 2%;
+	margin-left: 20%; 
+}
+.Why .inner .subBox {
+    margin-bottom: 10px;
+}
+.Why .inner .subBox h3 {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 50px;   
+}
+.Why .inner .albumDetail {
+
+}
+.Why .album {
+	display: flex;
+}
+.Why .album .right {
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 40%;  
+	height: 500px;
+	overflow: hidden;
+}
+.Why .album .right .title {
+	max-width: 100%;
+	height: auto;
+	display: blcok;
+}
+.Why .album .right .title-text {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000
+}
+.Why .album .right .title-text .title-name {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 40px;
+}
+.Why .album .right .title-text .title-genre {
+	font-size: 13px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.Why .album .right .text-box {
+	margin-top: 50px; 
+}
+.Why .album .right .text-box .main-text {
+	display: flex;
+	line-height: 25px;
+	font-weight: bold;
+	font-family: 'Nanum Gothic', sans-serif; 
+}
+.Why .album .right .text-box .main-text h3 {
+	margin-right: 20px;  
+}
+.Why .album .right .text-box .sub-text {
+	display: flex;
+	margin-top: 30px;
+	line-height: 25px;
+}
+.Why .album .right .text-box .sub-text h3 {
+	margin-right: 20px;
+}
+
+/*Something*/
+.Something {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+
+    top: 10%;
+    width: 100%;
+}
+
+
+.Something .topTitle {
+
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+
+}
+.Something .topTitle .subTitle {
+    
+    font-size: 20px;
+}
+.Something .topTitle .subTitle ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.Something .topTitle .subTitle ul li {
+    margin-right: 55px;
+}
+.Something .topTitle .subTitle ul li a {
+    letter-spacing: 1px;   
+}
+
+.Something .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*background-color: #F9F9F9;*/
+}
+
+
+
+.Something .inner {
+    margin-top: 2%;
+	margin-left: 20%; 
+}
+.Something .inner .subBox {
+    margin-bottom: 10px;
+}
+.Something .inner .subBox h3 {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 50px;   
+}
+.Something .inner .albumDetail {
+
+}
+.Something .album {
+	display: flex;
+}
+.Something .album .right {
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 40%;  
+	height: 500px;
+	overflow: hidden;
+}
+.Something .album .right .title {
+	max-width: 100%;
+	height: auto;
+	display: blcok;
+}
+.Something .album .right .title-text {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000
+}
+.Something .album .right .title-text .title-name {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 40px;
+}
+.Something .album .right .title-text .title-genre {
+	font-size: 13px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.Something .album .right .text-box {
+	margin-top: 50px; 
+}
+.Something .album .right .text-box .main-text {
+	display: flex;
+	line-height: 25px;
+	font-weight: bold;
+	font-family: 'Nanum Gothic', sans-serif; 
+}
+.Something .album .right .text-box .main-text h3 {
+	margin-right: 20px;  
+}
+.Something .album .right .text-box .sub-text {
+	display: flex;
+	margin-top: 30px;
+	line-height: 25px;
+}
+.Something .album .right .text-box .sub-text h3 {
+	margin-right: 20px;
+}
+
+/*WhatDo*/
+.WhatDo {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+
+    top: 10%;
+    width: 100%;
+}
+
+
+.WhatDo .topTitle {
+
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+
+}
+.WhatDo .topTitle .subTitle {
+    
+    font-size: 20px;
+}
+.WhatDo .topTitle .subTitle ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.WhatDo .topTitle .subTitle ul li {
+    margin-right: 55px;
+}
+.WhatDo .topTitle .subTitle ul li a {
+    letter-spacing: 1px;   
+}
+
+.WhatDo .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*background-color: #F9F9F9;*/
+}
+
+
+
+.WhatDo .inner {
+    margin-top: 2%;
+	margin-left: 20%; 
+}
+.WhatDo .inner .subBox {
+    margin-bottom: 10px;
+}
+.WhatDo .inner .subBox h3 {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 50px;   
+}
+.WhatDo .inner .albumDetail {
+
+}
+.WhatDo .album {
+	display: flex;
+}
+.WhatDo .album .right {
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 40%;  
+	height: 500px;
+	overflow: hidden;
+}
+.WhatDo .album .right .title {
+	max-width: 100%;
+	height: auto;
+	display: blcok;
+}
+.WhatDo .album .right .title-text {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000
+}
+.WhatDo .album .right .title-text .title-name {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 40px;
+}
+.WhatDo .album .right .title-text .title-genre {
+	font-size: 13px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.WhatDo .album .right .text-box {
+	margin-top: 50px; 
+}
+.WhatDo .album .right .text-box .main-text {
+	display: flex;
+	line-height: 25px;
+	font-weight: bold;
+	font-family: 'Nanum Gothic', sans-serif; 
+}
+.WhatDo .album .right .text-box .main-text h3 {
+	margin-right: 20px;  
+}
+.WhatDo .album .right .text-box .sub-text {
+	display: flex;
+	margin-top: 30px;
+	line-height: 25px;
+}
+.WhatDo .album .right .text-box .sub-text h3 {
+	margin-right: 20px;
+}
+
+/*Rain*/
+.Rain {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+
+    top: 10%;
+    width: 100%;
+}
+
+
+.Rain .topTitle {
+
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+
+}
+.Rain .topTitle .subTitle {
+    
+    font-size: 20px;
+}
+.Rain .topTitle .subTitle ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.Rain .topTitle .subTitle ul li {
+    margin-right: 55px;
+}
+.Rain .topTitle .subTitle ul li a {
+    letter-spacing: 1px;   
+}
+
+.Rain .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*background-color: #F9F9F9;*/
+}
+
+
+
+.Rain .inner {
+    margin-top: 2%;
+	margin-left: 20%; 
+}
+.Rain .inner .subBox {
+    margin-bottom: 10px;
+}
+.Rain .inner .subBox h3 {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 50px;   
+}
+.Rain .inner .albumDetail {
+
+}
+.Rain .album {
+	display: flex;
+}
+.Rain .album .right {
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 40%;  
+	height: 500px;
+	overflow: hidden;
+}
+.Rain .album .right .title {
+	max-width: 100%;
+	height: auto;
+	display: blcok;
+}
+.Rain .album .right .title-text {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000
+}
+.Rain .album .right .title-text .title-name {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 40px;
+}
+.Rain .album .right .title-text .title-genre {
+	font-size: 13px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.Rain .album .right .text-box {
+	margin-top: 50px; 
+}
+.Rain .album .right .text-box .main-text {
+	display: flex;
+	line-height: 25px;
+	font-weight: bold;
+	font-family: 'Nanum Gothic', sans-serif; 
+}
+.Rain .album .right .text-box .main-text h3 {
+	margin-right: 20px;  
+}
+.Rain .album .right .text-box .sub-text {
+	display: flex;
+	margin-top: 30px;
+	line-height: 25px;
+}
+.Rain .album .right .text-box .sub-text h3 {
+	margin-right: 20px;
+}
+
+/*eleven*/
+.eleven {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+
+    top: 10%;
+    width: 100%;
+}
+
+
+.eleven .topTitle {
+
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+
+}
+.eleven .topTitle .subTitle {
+    
+    font-size: 20px;
+}
+.eleven .topTitle .subTitle ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.eleven .topTitle .subTitle ul li {
+    margin-right: 55px;
+}
+.eleven .topTitle .subTitle ul li a {
+    letter-spacing: 1px;   
+}
+
+.eleven .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*background-color: #F9F9F9;*/
+}
+
+
+
+.eleven .inner {
+    margin-top: 2%;
+	margin-left: 20%; 
+}
+.eleven .inner .subBox {
+    margin-bottom: 10px;
+}
+.eleven .inner .subBox h3 {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 50px;   
+}
+.eleven .inner .albumDetail {
+
+}
+.eleven .album {
+	display: flex;
+}
+.eleven .album .right {
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 40%;  
+	height: 500px;
+	overflow: hidden;
+}
+.eleven .album .right .title {
+	max-width: 100%;
+	height: auto;
+	display: blcok;
+}
+.eleven .album .right .title-text {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000
+}
+.eleven .album .right .title-text .title-name {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 40px;
+}
+.eleven .album .right .title-text .title-genre {
+	font-size: 13px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.eleven .album .right .text-box {
+	margin-top: 50px; 
+}
+.eleven .album .right .text-box .main-text {
+	display: flex;
+	line-height: 25px;
+	font-weight: bold;
+	font-family: 'Nanum Gothic', sans-serif; 
+}
+.eleven .album .right .text-box .main-text h3 {
+	margin-right: 20px;  
+}
+.eleven .album .right .text-box .sub-text {
+	display: flex;
+	margin-top: 30px;
+	line-height: 25px;
+}
+.eleven .album .right .text-box .sub-text h3 {
+	margin-right: 20px;
+}
+
+/*FourSeason*/
+.FourSeason {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+
+    top: 10%;
+    width: 100%;
+}
+
+
+.FourSeason .topTitle {
+
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+
+}
+.FourSeason .topTitle .subTitle {
+    
+    font-size: 20px;
+}
+.FourSeason .topTitle .subTitle ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.FourSeason .topTitle .subTitle ul li {
+    margin-right: 55px;
+}
+.FourSeason .topTitle .subTitle ul li a {
+    letter-spacing: 1px;   
+}
+
+.FourSeason .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*background-color: #F9F9F9;*/
+}
+
+
+
+.FourSeason .inner {
+    margin-top: 2%;
+	margin-left: 20%; 
+}
+.FourSeason .inner .subBox {
+    margin-bottom: 10px;
+}
+.FourSeason .inner .subBox h3 {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 50px;   
+}
+.FourSeason .inner .albumDetail {
+
+}
+.FourSeason .album {
+	display: flex;
+}
+.FourSeason .album .right {
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 40%;  
+	height: 500px;
+	overflow: hidden;
+}
+.FourSeason .album .right .title {
+	max-width: 100%;
+	height: auto;
+	display: blcok;
+}
+.FourSeason .album .right .title-text {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000
+}
+.FourSeason .album .right .title-text .title-name {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 40px;
+}
+.FourSeason .album .right .title-text .title-genre {
+	font-size: 13px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.FourSeason .album .right .text-box {
+	margin-top: 50px; 
+}
+.FourSeason .album .right .text-box .main-text {
+	display: flex;
+	line-height: 25px;
+	font-weight: bold;
+	font-family: 'Nanum Gothic', sans-serif; 
+}
+.FourSeason .album .right .text-box .main-text h3 {
+	margin-right: 20px;  
+}
+.FourSeason .album .right .text-box .sub-text {
+	display: flex;
+	margin-top: 30px;
+	line-height: 25px;
+}
+.FourSeason .album .right .text-box .sub-text h3 {
+	margin-right: 20px;
+}
+
+/*Happy*/
+.Happy {
+    position: relative;
+}
+.Happy .inner {
+    margin-top: 2%;
+	margin-left: 20%; 
+}
+.Happy .inner .subBox {
+    margin-bottom: 10px;
+}
+.Happy .inner .subBox h3 {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 50px;   
+}
+.Happy .inner .albumDetail {
+
+}
+.Happy .album {
+	display: flex;
+}
+.Happy .album .right {
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 40%;  
+	height: 500px;
+	overflow: hidden;
+}
+.Happy .album .right .title {
+	max-width: 100%;
+	height: auto;
+	display: blcok;
+}
+.Happy .album .right .title-text {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000
+}
+.Happy .album .right .title-text .title-name {
+	font-family: 'Anek Telugu', sans-serif;
+	font-size: 40px;
+}
+.Happy .album .right .title-text .title-genre {
+	font-size: 13px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.Happy .album .right .text-box {
+	margin-top: 50px; 
+}
+.Happy .album .right .text-box .main-text {
+	display: flex;
+	line-height: 25px;
+	font-weight: bold;
+	font-family: 'Nanum Gothic', sans-serif; 
+}
+.Happy .album .right .text-box .main-text h3 {
+	margin-right: 20px;  
+}
+.Happy .album .right .text-box .sub-text {
+	display: flex;
+	margin-top: 30px;
+	line-height: 25px;
+}
+.Happy .album .right .text-box .sub-text h3 {
+	margin-right: 20px;
+}
